@@ -20,8 +20,11 @@ def fav_foods
 end
 fav_foods
 
-user_hash = { :name => "Steve", :password => "password5", :social_accounts => ["twitter", "facebook", "pinterest"]}
-puts "User info and the word pinterest"
-puts user_hash[:name]
-puts user_hash[:password]
-puts user_hash[:social_accounts][2]
+def user_info
+	user_hash = { :name => "Steve", :password => "password5", :social_accounts => ["twitter", "facebook", "pinterest"]}
+	puts "User info and the word pinterest"
+	puts user_hash[:name]
+	puts user_hash[:password]
+	puts user_hash[:social_accounts][2]
+end
+user_info
